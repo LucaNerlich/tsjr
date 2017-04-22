@@ -1,3 +1,2 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var shoppingCart;
+let shoppingCart;
+//# sourceMappingURL=Main.js.map

@@ -2,7 +2,7 @@
   "name": "tsctest",
   "version": "1.0.0",
   "description": "description xx",
-  "main": "main.js",
+  "main": "./built/Main.js",
   "scripts": {
     "tsc": "tsc"
   },
