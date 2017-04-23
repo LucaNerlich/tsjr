@@ -1,19 +1,18 @@
 # typescriptTrainings / tsjr / TypeScript JumpAndRun
 
-# NodeJS 
 as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 
 # TypeScript + NodeJs
 
-1. install NodeJs
-1.1 install NodeJs
-1.1 'npm install -g typescript'
-1.2 'npm install ts-node'
-1.2 'npm install nodemon'
+    1. install NodeJs
+    2. install NodeJs
+    3. 'npm install -g typescript'
+    4. 'npm install ts-node'
+    5. 'npm install nodemon'
 
 # NodeJs Setup
-2. 'npm install' in root project folder
-2.1 create package.json in root folder
+    1 'npm install' in root project folder
+    2 create package.json in root folder
 
 ```json
 {
@@ -37,9 +36,8 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 }
 ```
 # TypeScript Setup
-3. 'npm start' to run nodejs local server
-
-3.1 create tsconfig.json in root folder
+    1 'npm start' to run nodejs local server
+    2 create tsconfig.json in root folder
 
 ```json
 {
