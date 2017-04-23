@@ -2,14 +2,17 @@ import {Artikel} from "./Artikel";
 import {Person} from "./Person";
 import {ShoppingCart} from "./Shoppingcart";
 
-let banane: Artikel;
-banane.name = "Banane";
-banane.price = 1.2;
+let banane: Artikel = new Artikel("Banane", 1.2);
 
-let apfel: Artikel;
-apfel.name = "Apfel";
-apfel.price = 0.90;
+let apfel: Artikel = new Artikel("Apfel", 0.99);
 
-let shoppingCart :ShoppingCart;
+let shopper1: Person = new Person("Luca", "Nerlich");
+
+let shoppingCart :ShoppingCart = new ShoppingCart(shopper1);
+
+shoppingCart.addArtikel(banane);
+shoppingCart.addArtikel(apfel);
+console.log(shoppingCart.printShoppingCart());
+
 
 

@@ -1,8 +1,11 @@
-let banane;
-banane.name = "Banane";
-banane.price = 1.2;
-let apfel;
-apfel.name = "Apfel";
-apfel.price = 0.90;
-let shoppingCart;
+import { Artikel } from "./Artikel";
+import { Person } from "./Person";
+import { ShoppingCart } from "./Shoppingcart";
+let banane = new Artikel("Banane", 1.2);
+let apfel = new Artikel("Apfel", 0.99);
+let shopper1 = new Person("Luca", "Nerlich");
+let shoppingCart = new ShoppingCart(shopper1);
+shoppingCart.addArtikel(banane);
+shoppingCart.addArtikel(apfel);
+console.log(shoppingCart.printShoppingCart());
 //# sourceMappingURL=Main.js.map

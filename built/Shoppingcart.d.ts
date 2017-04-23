@@ -6,6 +6,6 @@ export declare class ShoppingCart {
     currentPrice: number;
     constructor(owner: Person);
     addArtikel(artikel: Artikel): void;
-    printShoppingCart(shoppingCart: ShoppingCart): void;
-    getShoppingCartSum(shoppingCart: ShoppingCart): number;
+    printShoppingCart(): void;
+    getShoppingCartSum(): number;
 }

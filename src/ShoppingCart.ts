@@ -6,7 +6,7 @@ import { Person } from "./Person";
 
 export class ShoppingCart {
     owner: Person;
-    itemsToBuy: Artikel[];
+    itemsToBuy: Artikel[] = [];
     currentPrice: number;
 
     constructor(owner: Person){
@@ -17,17 +17,17 @@ export class ShoppingCart {
         this.itemsToBuy.push(artikel);
     }
 
-    printShoppingCart(shoppingCart: ShoppingCart) {
-        for (let item of shoppingCart.itemsToBuy) {
+    printShoppingCart() {
+        for (let item of this.itemsToBuy) {
             console.log(item.getName());
         }
     }
 
-    getShoppingCartSum(shoppingCart: ShoppingCart) {
+    getShoppingCartSum() {
         let sum: number;
 
         // get each articles price and add to sum
-        for (let item of shoppingCart.itemsToBuy) {
+        for (let item of this.itemsToBuy) {
             sum += item.price;
         }
 

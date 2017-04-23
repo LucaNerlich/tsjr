@@ -1,18 +1,19 @@
 export class ShoppingCart {
     constructor(owner) {
+        this.itemsToBuy = [];
         this.owner = owner;
     }
     addArtikel(artikel) {
         this.itemsToBuy.push(artikel);
     }
-    printShoppingCart(shoppingCart) {
-        for (let item of shoppingCart.itemsToBuy) {
+    printShoppingCart() {
+        for (let item of this.itemsToBuy) {
             console.log(item.getName());
         }
     }
-    getShoppingCartSum(shoppingCart) {
+    getShoppingCartSum() {
         let sum;
-        for (let item of shoppingCart.itemsToBuy) {
+        for (let item of this.itemsToBuy) {
             sum += item.price;
         }
         return sum;
