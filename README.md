@@ -1,8 +1,9 @@
-# typescriptTrainings
+# typescriptTrainings / tsjr / TypeScript JumpAndRun
 
-# NodeJS - https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
+# NodeJS 
+as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 
-#TypeScript + NodeJs
+# TypeScript + NodeJs
 
 1. install NodeJs
 1.1 install NodeJs
@@ -14,6 +15,7 @@
 2. 'npm install' in root project folder
 2.1 create package.json in root folder
 
+```json
 {
     "name": "tsctest",
     "version": "1.0.0",
@@ -33,11 +35,13 @@
     "author": "Luca N",
     "license": "xxxx"
 }
+```
 # TypeScript Setup
 3. 'npm start' to run nodejs local server
 
 3.1 create tsconfig.json in root folder
 
+```json
 {
     "compileOnSave": true,
     "compilerOptions": {
@@ -60,4 +64,4 @@
         ".npm"
     ]
 }
-
+```
