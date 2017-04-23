@@ -4,15 +4,14 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 
 # TypeScript + NodeJs
 
-    1. install NodeJs
-    2. install NodeJs
-    3. 'npm install -g typescript'
-    4. 'npm install ts-node'
-    5. 'npm install nodemon'
+    1. install NodeJs - https://nodejs.org/en/
+    2. 'npm install -g typescript' - https://www.typescriptlang.org/index.html#download-links
+    3. 'npm install ts-node' - https://github.com/TypeStrong/ts-node
+    4. 'npm install nodemon'
 
 # NodeJs Setup
-    1 'npm install' in root project folder
-    2 create package.json in root folder
+    1. 'npm install' in root project folder
+    2. create package.json in root folder
 
 ```json
 {
@@ -36,8 +35,7 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 }
 ```
 # TypeScript Setup
-    1 'npm start' to run nodejs local server
-    2 create tsconfig.json in root folder
+    1. create tsconfig.json in root folder
 
 ```json
 {
@@ -63,3 +61,14 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     ]
 }
 ```
+
+# Run the whole thing
+    1. 'tsc -w -p .' - TypeScript Watcher - auto compiles on save
+    2. 'npm start' to run nodejs local server
+
+# Visual Studio Code Extensions
+    1. Auto Close Tag // Jun Han
+    2. Material Theme // zhuangtongfa
+    3. Prettier - JavaScript formatter // Esben Petersen
+    4. vscode-icons //Roberto Huertas
+    5. Settings Sync // Shan Khan
