@@ -9,6 +9,10 @@ export class ShoppingCart {
     itemsToBuy: Artikel[];
     currentPrice: number;
 
+    constructor(owner: Person){
+        this.owner = owner;
+    }
+
     addArtikel(artikel: Artikel) {
         this.itemsToBuy.push(artikel);
     }

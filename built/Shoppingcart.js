@@ -1,4 +1,7 @@
 export class ShoppingCart {
+    constructor(owner) {
+        this.owner = owner;
+    }
     addArtikel(artikel) {
         this.itemsToBuy.push(artikel);
     }
