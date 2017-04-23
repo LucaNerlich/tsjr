@@ -2,6 +2,8 @@ import {Artikel} from "./Artikel";
 import {Person} from "./Person";
 import {ShoppingCart} from "./Shoppingcart";
 
+// tsc -w -p .
+
 let banane: Artikel = new Artikel("Banane", 1.2);
 
 let apfel: Artikel = new Artikel("Apfel", 0.99);
