@@ -1,14 +1,19 @@
 {
-  "name": "tsctest",
-  "version": "1.0.0",
-  "description": "description xx",
-  "main": "./built/Main.js",
-  "scripts": {
-    "tsc": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "^2.2.2"
-  },
-  "author": "Luca N",
-  "license": "GNU"
+    "name": "tsctest",
+    "version": "1.0.0",
+    "description": "description xx",
+    "main": "./built/Main.js",
+    "types": "./built/Main.js",
+    "scripts": {
+        "start": "npm run build:live",
+        "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/Main.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^7.0.13",
+        "nodemon": "^1.11.0",
+        "ts-node": "^3.0.2",
+        "typescript": "^2.2.2"
+    },
+    "author": "Luca N",
+    "license": "xxxx"
 }

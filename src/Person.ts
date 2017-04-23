@@ -1,4 +1,4 @@
-export interface Person{
+export class Person{
     firstName :String;
     lastName :String;
 }

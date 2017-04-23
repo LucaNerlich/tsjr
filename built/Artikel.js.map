@@ -1,1 +1,1 @@
-{"version":3,"file":"Artikel.js","sourceRoot":"","sources":["../src/Artikel.ts"],"names":[],"mappings":"AAKA;IACI,MAAM,CAAC,IAAI,CAAC,KAAK,CAAC;AACtB,CAAC;AAED;IACI,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC;AACrB,CAAC"}
+{"version":3,"file":"Artikel.js","sourceRoot":"","sources":["../src/Artikel.ts"],"names":[],"mappings":"AAAA,MAAM;IAIF,QAAQ;QACJ,MAAM,CAAC,IAAI,CAAC,KAAK,CAAC;IACtB,CAAC;IAED,OAAO;QACH,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC;IACrB,CAAC;IAED,eAAe;QACX,MAAM,CAAC,IAAI,CAAC,OAAO,EAAE,GAAG,IAAI,GAAG,IAAI,CAAC,QAAQ,EAAE,CAAC;IACnD,CAAC;CACJ"}

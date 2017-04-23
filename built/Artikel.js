@@ -1,7 +1,12 @@
-function getPrice() {
-    return this.price;
-}
-function getName() {
-    return this.name;
+export class Artikel {
+    getPrice() {
+        return this.price;
+    }
+    getName() {
+        return this.name;
+    }
+    getNameAndPrice() {
+        return this.getName() + ": " + this.getPrice();
+    }
 }
 //# sourceMappingURL=Artikel.js.map

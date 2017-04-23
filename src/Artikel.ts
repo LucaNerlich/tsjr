@@ -1,12 +1,20 @@
-export interface Artikel{
-    name :String;
-    price :number;
+export class Artikel {
+    name: String;
+    price: number;
+
+    getPrice() {
+        return this.price;
+    }
+
+    getName() {
+        return this.name;
+    }
+
+    getNameAndPrice() {
+        return this.getName() + ": " + this.getPrice();
+    }
 }
 
-function getPrice(){
-    return this.price;
-}
 
-function getName(){
-    return this.name;
-}
+
+
