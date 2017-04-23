@@ -4,11 +4,17 @@ import { Person } from "./Person";
 // tsc *.ts --watch
 // tsc -w -p .
 
+/** JS Doc Comment */
 export class ShoppingCart {
     owner: Person;
     itemsToBuy: Artikel[] = [];
     currentPrice: number;
 
+    /** 
+     * Represents a shopping cart.
+     * @constructor
+     * @param {Person} owner - The owner of the shoppingcart.
+     */
     constructor(owner: Person){
         this.owner = owner;
     }
