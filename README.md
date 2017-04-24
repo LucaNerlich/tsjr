@@ -67,6 +67,12 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     1. 'tsc -w -p .' - TypeScript Watcher - auto compiles on save
     2. 'npm start' to run nodejs local server
 
+# If issues occur with node or npm
+    1. sudo rm -rf /usr/local/lib/node_modules
+    2. sudo rm -rf ~/.npm
+    3. brew uninstall --force node
+    4. brew install node
+
 # Visual Studio Code Extensions
     1. Auto Close Tag // Jun Han
     2. Material Theme // zhuangtongfa
