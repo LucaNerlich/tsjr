@@ -15,7 +15,7 @@ export class ShoppingCart {
      * @constructor
      * @param {Person} owner - The owner of the shoppingcart.
      */
-    constructor(owner: Person){
+    constructor(owner: Person) {
         this.owner = owner;
     }
 

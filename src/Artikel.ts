@@ -2,7 +2,7 @@ export class Artikel {
     name: String;
     price: number;
 
-    constructor(name: String, price: number){
+    constructor(name: String, price: number) {
         this.name = name;
         this.price = price;
     }
@@ -19,7 +19,3 @@ export class Artikel {
         return this.getName() + ": " + this.getPrice();
     }
 }
-
-
-
-
