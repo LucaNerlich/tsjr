@@ -73,3 +73,25 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     3. Prettier - JavaScript formatter // Esben Petersen
     4. vscode-icons //Roberto Huertas
     5. Settings Sync // Shan Khan
+
+# Visual Studio Code settings.json
+```json
+    {
+    "sync.gist": "",
+    "sync.lastUpload": "",
+    "sync.autoDownload": false,
+    "sync.autoUpload": true,
+    "sync.lastDownload": "",
+    "sync.version": 262,
+    "sync.showSummary": true,
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 12,
+    "files.autoSave": "onFocusChange",
+    "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
+    "typescript.useCodeSnippetsOnMethodSuggest": true
+}
+```
