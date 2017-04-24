@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "description xx",
     "main": "./built/Main.js",
-    "types": "./built/Main.js",
+    "types": "./node_modules/@types/node/index.d.ts",
     "scripts": {
         "start": "npm run build:live",
         "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/Main.ts"

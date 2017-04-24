@@ -8,6 +8,7 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     2. 'npm install -g typescript' - https://www.typescriptlang.org/index.html#download-links
     3. 'npm install ts-node' - https://github.com/TypeStrong/ts-node
     4. 'npm install nodemon'
+    5. 'npm install @types/node --save-dev'
 
 # NodeJs Setup
     1. 'npm install' in root project folder
