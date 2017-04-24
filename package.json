@@ -6,7 +6,7 @@
     "types": "./node_modules/@types/node/index.d.ts",
     "scripts": {
         "start": "npm run build:live",
-        "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/Main.ts"
+        "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/ts/Main.ts"
     },
     "devDependencies": {
         "@types/node": "^7.0.13",
