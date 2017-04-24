@@ -30,11 +30,11 @@ export class ShoppingCart {
     }
 
     getShoppingCartSum() {
-        let sum: number;
+        let sum: number = 0;
 
         // get each articles price and add to sum
         for (let item of this.itemsToBuy) {
-            sum += item.price;
+            sum += item.getPrice();
         }
 
         return sum;

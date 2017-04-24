@@ -12,9 +12,9 @@ export class ShoppingCart {
         }
     }
     getShoppingCartSum() {
-        let sum;
+        let sum = 0;
         for (let item of this.itemsToBuy) {
-            sum += item.price;
+            sum += item.getPrice();
         }
         return sum;
     }

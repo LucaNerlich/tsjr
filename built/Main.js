@@ -7,5 +7,7 @@ let shopper1 = new Person("Luca", "Nerlich");
 let shoppingCart = new ShoppingCart(shopper1);
 shoppingCart.addArtikel(banane);
 shoppingCart.addArtikel(apfel);
-console.log(shoppingCart.printShoppingCart());
+shoppingCart.printShoppingCart();
+console.log("###### - Preise - ######");
+console.log(shoppingCart.getShoppingCartSum());
 //# sourceMappingURL=Main.js.map

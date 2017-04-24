@@ -1,3 +1,5 @@
 .vscode
 /node_modules
 *.log
+/built/*.map
+/built/*.d.ts

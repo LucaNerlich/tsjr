@@ -3,6 +3,8 @@ import {Person} from "./Person";
 import {ShoppingCart} from "./Shoppingcart";
 
 // tsc -w -p .
+// if issues with npm or node occur, try complete reinstall of node and npm
+// http://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver
 
 let banane: Artikel = new Artikel("Banane", 1.2);
 
@@ -14,7 +16,9 @@ let shoppingCart :ShoppingCart = new ShoppingCart(shopper1);
 
 shoppingCart.addArtikel(banane);
 shoppingCart.addArtikel(apfel);
-console.log(shoppingCart.printShoppingCart());
 
+shoppingCart.printShoppingCart();
+console.log("###### - Preise - ######");
+console.log(shoppingCart.getShoppingCartSum());
 
 
