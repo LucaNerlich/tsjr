@@ -21,5 +21,3 @@ shoppingCart.addArtikel(apfel);
 shoppingCart.printShoppingCart();
 console.log("###### - Preise - ######");
 console.log(shoppingCart.getShoppingCartSum());
-
-
