@@ -92,6 +92,7 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     "editor.fontSize": 12,
     "files.autoSave": "onFocusChange",
     "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
-    "typescript.useCodeSnippetsOnMethodSuggest": true
+    "typescript.useCodeSnippetsOnMethodSuggest": true,
+    "editor.formatOnSave": true
 }
 ```
