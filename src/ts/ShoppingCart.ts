@@ -11,9 +11,9 @@ enum ArtikelTyp {
 }
 
 export class ShoppingCart {
-    owner: Person;
-    itemsToBuy: Artikel[] = [];
-    currentPrice: number;
+    private owner: Person;
+    private itemsToBuy: Artikel[] = [];
+    private currentPrice: number;
 
     /** 
      * Represents a shopping cart.
@@ -24,7 +24,7 @@ export class ShoppingCart {
         this.owner = owner;
     }
 
-    addArtikel(artikel: Artikel) {
+    addArtikel(artikel: Artikel): void {
         this.itemsToBuy.push(artikel);
 
         // enum beispiel
@@ -32,14 +32,17 @@ export class ShoppingCart {
 
     }
 
-    removeArtikel(artikel: Artikel) {
+    removeArtikel(artikel: Artikel): boolean {
         let index: number = this.itemsToBuy.indexOf(artikel, 0)
         if (index > -1) {
-            this.itemsToBuy.splice(index, 1)
+            this.itemsToBuy.splice(index, 1);
+            return true;
+        } else {
+            return false;
         }
     }
 
-    printShoppingCart() {
+    printShoppingCart(): void {
         for (let item of this.itemsToBuy) {
             console.log(item.getName());
         }
@@ -48,7 +51,7 @@ export class ShoppingCart {
         // let testSet: Collections.Set = new Collections.Set<number>();
     }
 
-    getShoppingCartSum() {
+    getShoppingCartSum(): number {
         let sum: number = 0;
 
         // get each articles price and add to sum

@@ -18,6 +18,10 @@ export class ShoppingCart {
         let index = this.itemsToBuy.indexOf(artikel, 0);
         if (index > -1) {
             this.itemsToBuy.splice(index, 1);
+            return true;
+        }
+        else {
+            return false;
         }
     }
     printShoppingCart() {

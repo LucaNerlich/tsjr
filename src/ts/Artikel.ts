@@ -7,15 +7,15 @@ export class Artikel {
         this.price = price;
     }
 
-    getPrice() {
+    getPrice(): number {
         return this.price;
     }
 
-    getName() {
+    getName(): string {
         return this.name;
     }
 
-    getNameAndPrice() {
+    getNameAndPrice(): string {
         return this.getName() + ": " + this.getPrice();
     }
 }
