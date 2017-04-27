@@ -6,6 +6,12 @@ export class ShoppingCart {
     addArtikel(artikel) {
         this.itemsToBuy.push(artikel);
     }
+    removeArtikel(artikel) {
+        let index = this.itemsToBuy.indexOf(artikel, 0);
+        if (index > -1) {
+            this.itemsToBuy.splice(index, 1);
+        }
+    }
     printShoppingCart() {
         for (let item of this.itemsToBuy) {
             console.log(item.getName());

@@ -6,6 +6,8 @@ let apfel = new Artikel("Apfel", 0.99);
 let shopper1 = new Person("Luca", "Nerlich");
 let shoppingCart = new ShoppingCart(shopper1);
 shoppingCart.addArtikel(banane);
+shoppingCart.addArtikel(banane);
+shoppingCart.addArtikel(apfel);
 shoppingCart.addArtikel(apfel);
 shoppingCart.printShoppingCart();
 console.log("###### - Preise - ######");

@@ -77,6 +77,7 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     1. Auto Close Tag // Jun Han
     2. Material Theme // zhuangtongfa
     3. Prettier - JavaScript formatter // Esben Petersen
+        3.1 cmd + shift + p -> 'Format Document
     4. vscode-icons //Roberto Huertas
     5. Settings Sync // Shan Khan
 
@@ -102,3 +103,7 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     "editor.formatOnSave": true
 }
 ```
+
+# Other
+    if issues with npm or node occur, try complete reinstall of node and npm
+    http://stackoverflow.com/questions/33870520/npm-install-cannot-find-module-semver

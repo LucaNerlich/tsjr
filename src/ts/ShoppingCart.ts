@@ -1,9 +1,6 @@
 import { Artikel } from "./Artikel";
 import { Person } from "./Person";
 
-// tsc *.ts --watch
-// tsc -w -p .
-
 /** JS Doc Comment */
 export class ShoppingCart {
     owner: Person;
@@ -21,6 +18,13 @@ export class ShoppingCart {
 
     addArtikel(artikel: Artikel) {
         this.itemsToBuy.push(artikel);
+    }
+
+    removeArtikel(artikel: Artikel) {
+        let index = this.itemsToBuy.indexOf(artikel, 0)
+        if (index > -1) {
+            this.itemsToBuy.splice(index, 1)
+        }
     }
 
     printShoppingCart() {
