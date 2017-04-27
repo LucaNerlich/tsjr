@@ -1,0 +1,166 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/ts-node/package.json",
+    "raw": "npm:ts-node",
+    "main": "dist/index.js",
+    "version": "3.0.2",
+    "dependencies": {
+      "arrify": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/arrify/package.json",
+        "raw": "npm:arrify",
+        "version": "1.0.1",
+        "name": "arrify"
+      },
+      "chalk": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/chalk/package.json",
+        "raw": "npm:chalk",
+        "version": "1.1.3",
+        "dependencies": {
+          "ansi-styles": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/ansi-styles/package.json",
+            "raw": "npm:ansi-styles",
+            "version": "2.2.1",
+            "name": "ansi-styles"
+          },
+          "escape-string-regexp": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/escape-string-regexp/package.json",
+            "raw": "npm:escape-string-regexp",
+            "version": "1.0.5",
+            "name": "escape-string-regexp"
+          },
+          "has-ansi": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/has-ansi/package.json",
+            "raw": "npm:has-ansi",
+            "version": "2.0.0",
+            "dependencies": {
+              "ansi-regex": {
+                "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/ansi-regex/package.json",
+                "raw": "npm:ansi-regex",
+                "version": "2.1.1",
+                "name": "ansi-regex"
+              }
+            },
+            "name": "has-ansi"
+          },
+          "strip-ansi": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/strip-ansi/package.json",
+            "raw": "npm:strip-ansi",
+            "version": "3.0.1",
+            "dependencies": {
+              "ansi-regex": {
+                "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/ansi-regex/package.json",
+                "raw": "npm:ansi-regex",
+                "version": "2.1.1",
+                "name": "ansi-regex"
+              }
+            },
+            "name": "strip-ansi"
+          },
+          "supports-color": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/supports-color/package.json",
+            "raw": "npm:supports-color",
+            "version": "2.0.0",
+            "name": "supports-color"
+          }
+        },
+        "name": "chalk"
+      },
+      "diff": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/diff/package.json",
+        "raw": "npm:diff",
+        "main": "./lib",
+        "version": "3.2.0",
+        "name": "diff"
+      },
+      "make-error": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/make-error/package.json",
+        "raw": "npm:make-error",
+        "version": "1.2.3",
+        "name": "make-error"
+      },
+      "minimist": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/ts-node/node_modules/minimist/package.json",
+        "raw": "npm:minimist",
+        "main": "index.js",
+        "version": "1.2.0",
+        "name": "minimist"
+      },
+      "mkdirp": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/mkdirp/package.json",
+        "raw": "npm:mkdirp",
+        "main": "index.js",
+        "version": "0.5.1",
+        "dependencies": {
+          "minimist": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/minimist/package.json",
+            "raw": "npm:minimist",
+            "main": "index.js",
+            "version": "0.0.8",
+            "name": "minimist"
+          }
+        },
+        "name": "mkdirp"
+      },
+      "source-map-support": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/source-map-support/package.json",
+        "raw": "npm:source-map-support",
+        "main": "./source-map-support.js",
+        "version": "0.4.14",
+        "dependencies": {
+          "source-map": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/source-map/package.json",
+            "raw": "npm:source-map",
+            "main": "./source-map.js",
+            "version": "0.5.6",
+            "name": "source-map"
+          }
+        },
+        "name": "source-map-support"
+      },
+      "tsconfig": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/tsconfig/package.json",
+        "raw": "npm:tsconfig",
+        "main": "dist/tsconfig.js",
+        "version": "6.0.0",
+        "dependencies": {
+          "strip-bom": {
+            "src": "https://raw.githubusercontent.com/typed-typings/npm-strip-bom/d1d42e7f43dcd9fce1cfd988c40421a1d37fa47b/typings.json",
+            "raw": "registry:npm/strip-bom#2.0.0+20160211003958",
+            "main": "index.d.ts",
+            "name": "strip-bom"
+          },
+          "strip-json-comments": {
+            "src": "https://raw.githubusercontent.com/typed-typings/npm-strip-json-comments/6fd0bb0b697465c16e022557c3796bc1358124ac/typings.json",
+            "raw": "registry:npm/strip-json-comments#2.0.0+20160211003958",
+            "main": "index.d.ts",
+            "name": "strip-json-comments"
+          }
+        },
+        "name": "tsconfig"
+      },
+      "v8flags": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/v8flags/package.json",
+        "raw": "npm:v8flags",
+        "main": "index.js",
+        "version": "2.1.1",
+        "dependencies": {
+          "user-home": {
+            "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/user-home/package.json",
+            "raw": "npm:user-home",
+            "version": "1.1.1",
+            "name": "user-home"
+          }
+        },
+        "name": "v8flags"
+      },
+      "yn": {
+        "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/yn/package.json",
+        "raw": "npm:yn",
+        "version": "1.2.0",
+        "name": "yn"
+      }
+    },
+    "name": "ts-node"
+  }
+}

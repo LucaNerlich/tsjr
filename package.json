@@ -3,16 +3,18 @@
     "version": "1.0.0",
     "description": "description xx",
     "main": "./built/Main.js",
-    "types": "./node_modules/@types/node/index.d.ts",
+    "types": "./typings/index.d.ts",
     "scripts": {
-        "start": "npm run build:live",
+        "start": "typings install && npm run build:live",
         "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/ts/Main.ts"
     },
     "devDependencies": {
         "@types/node": "^7.0.13",
         "nodemon": "^1.11.0",
         "ts-node": "^3.0.2",
-        "typescript": "^2.2.2"
+        "typescript": "^2.2.2",
+        "typescript-collections": "^1.1.0",
+        "typings": "^2.1.1"
     },
     "repository": {
         "type": "git",

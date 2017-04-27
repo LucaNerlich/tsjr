@@ -1,0 +1,11 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/typescript-collections/package.json",
+    "raw": "npm:typescript-collections",
+    "main": "./dist/lib/umd.js",
+    "typings": "./dist/lib/index.d.ts",
+    "version": "1.2.3",
+    "name": "typescript-collections"
+  }
+}

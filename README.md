@@ -67,6 +67,11 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
     1. 'tsc -w -p .' - TypeScript Watcher - auto compiles on save
     2. 'npm start' to run nodejs local server
 
+# Typings - CLI Tool to manage your TypeScript Type Definitions
+    0. https://github.com/typings/typings
+    1. 'npm install -g typings'
+    2. 'typings install debug --save' - in project root
+
 # If issues occur with node or npm
     1. sudo rm -rf /usr/local/lib/node_modules
     2. sudo rm -rf ~/.npm

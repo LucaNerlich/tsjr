@@ -1,5 +1,6 @@
 import { Artikel } from "./Artikel";
 import { Person } from "./Person";
+import * as Collections from "typescript-collections";
 
 /** JS Doc Comment */
 export class ShoppingCart {
@@ -21,7 +22,7 @@ export class ShoppingCart {
     }
 
     removeArtikel(artikel: Artikel) {
-        let index = this.itemsToBuy.indexOf(artikel, 0)
+        let index: number = this.itemsToBuy.indexOf(artikel, 0)
         if (index > -1) {
             this.itemsToBuy.splice(index, 1)
         }
@@ -31,6 +32,9 @@ export class ShoppingCart {
         for (let item of this.itemsToBuy) {
             console.log(item.getName());
         }
+
+        // https://github.com/basarat/typescript-collections
+        // let testSet: Collections.Set = new Collections.Set<number>();
     }
 
     getShoppingCartSum() {

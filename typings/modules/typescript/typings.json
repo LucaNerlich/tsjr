@@ -1,0 +1,17 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/Users/lnerlich/Workspace/tsrepo/typescriptTrainings/node_modules/typescript/package.json",
+    "raw": "npm:typescript",
+    "main": "./lib/typescript.js",
+    "browser": {
+      "buffer": false,
+      "fs": false,
+      "os": false,
+      "path": false
+    },
+    "typings": "./lib/typescript.d.ts",
+    "version": "2.2.2",
+    "name": "typescript"
+  }
+}
