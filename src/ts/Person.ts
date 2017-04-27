@@ -1,8 +1,8 @@
 export class Person {
-    firstName: String;
-    lastName: String;
+    firstName: string;
+    lastName: string;
 
-    constructor(firstname: String, lastName: String) {
+    constructor(firstname: string, lastName: string) {
         this.firstName = firstname;
         this.lastName = lastName;
     }

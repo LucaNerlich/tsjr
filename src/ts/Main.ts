@@ -2,6 +2,9 @@ import { Artikel } from "./Artikel";
 import { Person } from "./Person";
 import { ShoppingCart } from "./Shoppingcart";
 
+// http://brianflove.com/2016/11/08/typescript-2-express-node/
+// https://basarat.gitbooks.io/typescript/
+
 let banane: Artikel = new Artikel("Banane", 1.2);
 
 let apfel: Artikel = new Artikel("Apfel", 0.99);
