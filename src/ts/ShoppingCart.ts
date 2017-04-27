@@ -3,6 +3,13 @@ import { Person } from "./Person";
 import * as Collections from "typescript-collections";
 
 /** JS Doc Comment */
+enum ArtikelTyp {
+    Frucht,
+    Gemuese,
+    Tiefkuehl,
+    Suess
+}
+
 export class ShoppingCart {
     owner: Person;
     itemsToBuy: Artikel[] = [];
@@ -19,6 +26,10 @@ export class ShoppingCart {
 
     addArtikel(artikel: Artikel) {
         this.itemsToBuy.push(artikel);
+
+        // enum beispiel
+        let x = ArtikelTyp.Frucht;
+
     }
 
     removeArtikel(artikel: Artikel) {

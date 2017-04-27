@@ -4,12 +4,14 @@
     "description": "description xx",
     "main": "./built/Main.js",
     "types": "./typings/index.d.ts",
+    "private": true,
     "scripts": {
         "start": "typings install && npm run build:live",
         "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/ts/Main.ts"
     },
     "devDependencies": {
-        "@types/node": "^7.0.13",
+        "@types/node": "^7.0.14",
+        "express": "^4.15.2",
         "nodemon": "^1.11.0",
         "ts-node": "^3.0.2",
         "typescript": "^2.2.2",
@@ -21,5 +23,8 @@
         "url": "git://github.com/LucaNerlich/tsjr.git"
     },
     "author": "Luca N",
-    "license": "UNLICENSED"
+    "license": "UNLICENSED",
+    "dependencies": {
+        "express": "^4.15.2"
+    }
 }
