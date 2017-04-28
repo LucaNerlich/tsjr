@@ -1,7 +1,11 @@
 /** Main Game Class */
+import { Circle } from 'Model/Circle'
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
+
+let circle1: Circle = new Circle(200, 300, 50, context);
+let circle2: Circle = new Circle(400, 550, 150, context, "blue", 5);
 
 function gameLoop() {
     requestAnimationFrame(gameLoop);

@@ -1,6 +1,6 @@
 import { iShape } from 'Model/iShape';
 
-class Circle implements iShape {
+export class Circle implements iShape {
     public x: number = 0;
     public y: number = 0;
     public radius: number = 10;
@@ -17,6 +17,7 @@ class Circle implements iShape {
         this.lineWidth = line_width;
         this.context = context;
     }
+
     public draw = (): void => {
         this.context.save();
         this.context.beginPath();
