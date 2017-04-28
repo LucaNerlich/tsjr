@@ -16,6 +16,14 @@ function gameLoop() {
     context.lineWidth = 5;
     context.arc(400, 400, 100, 0, 2 * Math.PI);
     context.stroke();
+
+    if (circle1.x++ >= 1280 + circle1.radius) {
+        circle1.x = -circle1.radius;
+    }
+
+    if (circle2.y++ >= 720 + circle2.radius) {
+        circle2.y = -circle2.radius;
+    }
 }
 
 window.onload = () => {
