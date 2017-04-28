@@ -1,8 +1,6 @@
 .vscode
 /node_modules
-*.log
-*.map
-*.d.ts
+/built
 
 ### Maven ###
 target/
