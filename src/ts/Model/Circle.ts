@@ -1,4 +1,4 @@
-import * as iShape from 'Model/iShape';
+import { iShape } from 'Model/iShape';
 
 class Circle implements iShape {
     public x: number = 0;
