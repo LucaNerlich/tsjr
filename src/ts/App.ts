@@ -1,4 +1,5 @@
 /** Main Game Class */
+import * as iShape from 'Model/IShape'
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
