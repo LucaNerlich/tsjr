@@ -1,6 +1,7 @@
 import { Artikel } from "./Artikel";
 import { Person } from "./Person";
 import * as Collections from "typescript-collections";
+import m = require("typescript-collections");
 
 /** JS Doc Comment */
 enum ArtikelTyp {
@@ -10,6 +11,8 @@ enum ArtikelTyp {
     Suess
 }
 
+
+/** Class representing a shoppingcart */
 export class ShoppingCart {
     private owner: Person;
     private itemsToBuy: Artikel[] = [];
