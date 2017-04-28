@@ -4,6 +4,8 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 + 
 http://www.typescriptgames.com/
 
+    "grunt": "^1.0.1",
+
 # TypeScript + NodeJs
 
     1. install NodeJs - https://nodejs.org/en/
