@@ -1,5 +1,5 @@
 /** Main Game Class */
-import { Circle } from 'Model/Circle'
+import { Circle } from 'Model/Circle';
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
