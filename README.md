@@ -1,6 +1,8 @@
 # typescriptTrainings / tsjr / TypeScript JumpAndRun
 
 as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
++ 
+http://www.typescriptgames.com/
 
 # TypeScript + NodeJs
 
