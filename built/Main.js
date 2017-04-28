@@ -12,4 +12,14 @@ shoppingCart.addArtikel(apfel);
 shoppingCart.printShoppingCart();
 console.log("###### - Preise - ######");
 console.log(shoppingCart.getShoppingCartSum());
+const promise = new Promise((resolve, reject) => {
+    resolve(123);
+    reject(new Error("Something awful happened"));
+});
+promise.then((res) => {
+    console.log('I get called:', res === 123);
+});
+promise.catch((err) => {
+    console.log('I get called:', err.message);
+});
 //# sourceMappingURL=Main.js.map

@@ -13,7 +13,8 @@
         "typeRoots": [
             "./node_modules/@types"
         ],
-        "listEmittedFiles": true
+        "listEmittedFiles": true,
+        "alwaysStrict": true
     },
     "include": [
         "./src/**/*"

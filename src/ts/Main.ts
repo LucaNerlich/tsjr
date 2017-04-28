@@ -21,3 +21,17 @@ shoppingCart.addArtikel(apfel);
 shoppingCart.printShoppingCart();
 console.log("###### - Preise - ######");
 console.log(shoppingCart.getShoppingCartSum());
+
+//  Promises examples - https://basarat.gitbooks.io/typescript/docs/promise.html
+
+const promise = new Promise((resolve, reject) => {
+    resolve(123);
+    reject(new Error("Something awful happened"));
+});
+promise.then((res) => {
+    console.log('I get called:', res === 123); // I get called: true
+});
+promise.catch((err) => {
+    console.log('I get called:', err.message); // I get called: 'Something awful happened'
+
+});
