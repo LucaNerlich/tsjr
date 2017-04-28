@@ -1,3 +1,4 @@
+"use strict";
 let canvas;
 let context;
 function gameLoop() {
