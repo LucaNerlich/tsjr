@@ -2,7 +2,7 @@
     "compileOnSave": true,
     "compilerOptions": {
         "outDir": "./built",
-        "target": "es2017",
+        "target": "es5",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
