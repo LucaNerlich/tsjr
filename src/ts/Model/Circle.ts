@@ -1,6 +1,6 @@
-import { iShape } from 'Model/iShape';
+import iShape from './iShape.js';
 
-export class Circle implements iShape {
+export default class Circle implements iShape {
     public x: number = 0;
     public y: number = 0;
     public radius: number = 10;

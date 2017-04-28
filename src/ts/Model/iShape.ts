@@ -5,3 +5,5 @@ export interface iShape {
     color: string;
     lineWidth: number;
 }
+
+export default iShape;
