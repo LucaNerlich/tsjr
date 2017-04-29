@@ -38,4 +38,14 @@ export default class Circle implements iShape {
         this.y = this.y - 1;
         console.log("X: " + this.x + " - Y: " + this.y);
     }
+
+    public moveLeft = (): void => {
+        this.x = this.x - 1;
+        console.log("X: " + this.x + " - Y: " + this.y);
+    }
+
+    public moveRight = (): void => {
+        this.x = this.x + 1;
+        console.log("X: " + this.x + " - Y: " + this.y);
+    }
 }

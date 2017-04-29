@@ -48,7 +48,7 @@ window.onload = () => {
 function keyboardInput(event: KeyboardEvent) {
     // PRESS LEFT ARROW
     if (event.keyCode == 37) {
-        console.log("Left Key Pressed");
+        circle1.moveLeft();
     }
     // PRESS UP ARROW
     else if (event.keyCode == 38) {
@@ -56,7 +56,7 @@ function keyboardInput(event: KeyboardEvent) {
     }
     // PRESS RIGHT ARROW
     else if (event.keyCode == 39) {
-        console.log("Right Key Pressed");
+        circle1.moveRight();
     }
     // PRESS DOWN ARROW
     else if (event.keyCode == 40) {
