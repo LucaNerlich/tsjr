@@ -14,8 +14,7 @@
             "./node_modules/@types"
         ],
         "listEmittedFiles": true,
-        "alwaysStrict": true,
-        "allowJs": true
+        "alwaysStrict": true
     },
     "include": [
         "./src/**/*"
@@ -23,6 +22,7 @@
     "exclude": [
         "node_modules",
         ".npm",
-        "./src/_old"
+        "./src/_old",
+        "./src/libs"
     ]
 }

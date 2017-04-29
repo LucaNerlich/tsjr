@@ -1,4 +1,5 @@
 import Circle from './Model/Circle.js';
+import * as Phaser from '../libs/phaser.min.js'
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
