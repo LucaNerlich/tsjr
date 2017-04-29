@@ -1,4 +1,5 @@
-import Circle from './Model/Circle.js';
+import Circle from './Model/Circle';
+import Game from './GameFiles/Game';
 import * as Phaser from 'phaser-ce';
 
 let canvas: HTMLCanvasElement;
@@ -6,6 +7,8 @@ let context: CanvasRenderingContext2D;
 let circle1: Circle;
 
 let phaserx: Phaser.Game;
+
+let gamex: Game;
 
 function gameLoop() {
     requestAnimationFrame(gameLoop);
@@ -16,7 +19,7 @@ function gameLoop() {
     context.lineWidth = 5;
     context.arc(1280 / 2, 720 / 2, 100, 0, 2 * Math.PI);
     context.stroke();
-
+    gamex = new Game();
     circle1.draw();
 
     // if (circle1.x++ >= 1280 + circle1.radius) {

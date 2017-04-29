@@ -1,4 +1,4 @@
-import iShape from 'iShape.js';
+import iShape from 'iShape';
 
 export default class Circle implements iShape {
     public x: number = 0;
