@@ -29,23 +29,19 @@ export default class Circle implements iShape {
     }
 
     public moveUp = (): void => {
-        this.y = this.y + 1;
+        this.y = this.y - 1;
         this.draw();
-        console.log("X: " + this.x + " - Y: " + this.y);
     }
 
     public moveDown = (): void => {
-        this.y = this.y - 1;
-        console.log("X: " + this.x + " - Y: " + this.y);
+        this.y = this.y + 1;
     }
 
     public moveLeft = (): void => {
         this.x = this.x - 1;
-        console.log("X: " + this.x + " - Y: " + this.y);
     }
 
     public moveRight = (): void => {
         this.x = this.x + 1;
-        console.log("X: " + this.x + " - Y: " + this.y);
     }
 }
