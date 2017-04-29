@@ -14,7 +14,8 @@
             "./node_modules/@types"
         ],
         "listEmittedFiles": true,
-        "alwaysStrict": true
+        "alwaysStrict": true,
+        "allowJs": true
     },
     "include": [
         "./src/**/*"
