@@ -11,7 +11,10 @@
         "experimentalDecorators": true,
         "declaration": true,
         "typeRoots": [
-            "./node_modules/@types"
+            "node_modules/@types"
+        ],
+        "types": [
+            "phaser-ce"
         ],
         "listEmittedFiles": true,
         "alwaysStrict": true

@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "debug": "registry:npm/debug#2.0.0+20160723033700"
+  },
+  "globalDevDependencies": {
+    "phaser": "github:photonstorm/phaser-ce/typescript/typings.json"
   }
 }

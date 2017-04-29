@@ -1,9 +1,11 @@
 import Circle from './Model/Circle.js';
-import * as Phaser from '../libs/phaser.min.js'
+import * as Phaser from 'phaser-ce';
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
 let circle1: Circle;
+
+let phaserx: Phaser.Game;
 
 function gameLoop() {
     requestAnimationFrame(gameLoop);
