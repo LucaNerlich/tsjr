@@ -17,9 +17,9 @@ function gameLoop() {
 
     circle1.draw();
 
-    if (circle1.x++ >= 1280 + circle1.radius) {
-        circle1.x = -circle1.radius;
-    }
+    // if (circle1.x++ >= 1280 + circle1.radius) {
+    //     circle1.x = -circle1.radius;
+    // }
 }
 
 window.onload = () => {

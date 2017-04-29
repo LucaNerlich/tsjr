@@ -24,24 +24,24 @@ export default class Circle implements iShape {
         this.context.strokeStyle = this.color;
         this.context.lineWidth = this.lineWidth;
         this.context.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+        this.color = 'hsl(' + 360 * Math.random() + ', 50%, 50%)';
         this.context.stroke();
         this.context.restore();
     }
 
     public moveUp = (): void => {
-        this.y = this.y - 1;
-        this.draw();
+        this.y = this.y - 10;
     }
 
     public moveDown = (): void => {
-        this.y = this.y + 1;
+        this.y = this.y + 10;
     }
 
     public moveLeft = (): void => {
-        this.x = this.x - 1;
+        this.x = this.x - 10;
     }
 
     public moveRight = (): void => {
-        this.x = this.x + 1;
+        this.x = this.x + 10;
     }
 }
