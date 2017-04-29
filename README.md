@@ -4,8 +4,6 @@ as seen in: https://basarat.gitbooks.io/typescript/docs/quick/nodejs.html
 + 
 http://www.typescriptgames.com/
 
-    "grunt": "^1.0.1",
-
 # TypeScript + NodeJs
 
     1. install NodeJs - https://nodejs.org/en/
@@ -17,6 +15,8 @@ http://www.typescriptgames.com/
 # NodeJs Setup
     1. 'npm install' in root project folder
     2. create package.json in root folder
+    3. 'npm install -g http-server'
+    4. 'http-server' - in project root
 
 ```json
 {
