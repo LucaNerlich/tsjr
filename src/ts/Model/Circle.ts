@@ -29,10 +29,13 @@ export default class Circle implements iShape {
     }
 
     public moveUp = (): void => {
-        this.context.arc(this.x, this.y + 1, this.radius, 0, 2 * Math.PI);
+        this.y = this.y + 1;
+        this.draw();
+        console.log("X: " + this.x + " - Y: " + this.y);
     }
 
     public moveDown = (): void => {
-        this.context.arc(this.x, this.y - 1, this.radius, 0, 2 * Math.PI);
+        this.y = this.y - 1;
+        console.log("X: " + this.x + " - Y: " + this.y);
     }
 }
