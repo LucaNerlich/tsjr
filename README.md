@@ -60,14 +60,19 @@ http://www.typescriptgames.com/
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
-        "typeRoots": ["node_modules/@types"]
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "listEmittedFiles": true,
+        "alwaysStrict": true
     },
     "include": [
         "./src/**/*"
     ],
     "exclude": [
         "node_modules",
-        ".npm"
+        ".npm",
+        "./src/_old"
     ]
 }
 ```
