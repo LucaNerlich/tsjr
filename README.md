@@ -18,6 +18,11 @@ http://www.typescriptgames.com/
     3. 'npm install -g http-server'
     4. 'http-server' - in project root
 
+# Grunt
+    1. 'npm install -g grunt'
+    2. 'npm install grunt' - in project root
+    3. 'grunt watch' - in project root
+
 ```json
 {
     "name": "tsctest",
