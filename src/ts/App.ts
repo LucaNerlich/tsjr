@@ -3,13 +3,13 @@ import Circle from './Model/Circle.js';
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
 
-let circle1: Circle = new Circle(200, 300, 50, context);
-let circle2: Circle = new Circle(400, 550, 150, context, "blue", 5);
+let circle1: Circle;
+// let circle2: Circle = new Circle(400, 550, 150, context, "blue", 5);
 
 let x: number = 0;
 
 function gameLoop() {
-    let start: number = new Date().getTime();
+    // let start: number = new Date().getTime();
 
     requestAnimationFrame(gameLoop);
     context.fillStyle = "black";
@@ -17,18 +17,22 @@ function gameLoop() {
     context.beginPath();
     context.strokeStyle = "red";
     context.lineWidth = 5;
-    context.arc(400, 400, 100, 0, 2 * Math.PI);
+    context.arc(1280 / 2, 720 / 2, 100, 0, 2 * Math.PI);
+
+    circle1.draw();
+
     context.stroke();
 
-    if (circle1.x++ >= 1280 + circle1.radius) {
-        circle1.x = -circle1.radius;
-    }
 
-    if (circle2.y++ >= 720 + circle2.radius) {
-        circle2.y = -circle2.radius;
-    }
+    // if (circle1.x++ >= 1280 + circle1.radius) {
+    //     circle1.x = -circle1.radius;
+    // }
 
-    let end: number = new Date().getTime();
+    // if (circle2.y++ >= 720 + circle2.radius) {
+    //     circle2.y = -circle2.radius;
+    // }
+
+    // let end: number = new Date().getTime();
     // console.log("Frame produced in: " + (end - start));
 }
 
@@ -36,7 +40,9 @@ window.onload = () => {
     canvas = <HTMLCanvasElement>document.getElementById('mainGameCanvas');
     document.addEventListener('keydown', keyboardInput);
     context = canvas.getContext("2d");
+    circle1 = new Circle(200, 300, 50, context);
     gameLoop();
+
 }
 
 function keyboardInput(event: KeyboardEvent) {

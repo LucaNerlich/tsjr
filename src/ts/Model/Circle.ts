@@ -1,4 +1,4 @@
-import iShape from './iShape.js';
+import iShape from 'iShape.js';
 
 export default class Circle implements iShape {
     public x: number = 0;
@@ -26,5 +26,13 @@ export default class Circle implements iShape {
         this.context.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
         this.context.stroke();
         this.context.restore();
+    }
+
+    public moveUp = (): void => {
+        this.context.arc(this.x, this.y + 1, this.radius, 0, 2 * Math.PI);
+    }
+
+    public moveDown = (): void => {
+        this.context.arc(this.x, this.y - 1, this.radius, 0, 2 * Math.PI);
     }
 }
