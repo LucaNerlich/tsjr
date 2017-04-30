@@ -19,7 +19,6 @@ function gameLoop() {
     context.lineWidth = 5;
     context.arc(1280 / 2, 720 / 2, 100, 0, 2 * Math.PI);
     context.stroke();
-    gamex = new Game();
     circle1.draw();
 
     // if (circle1.x++ >= 1280 + circle1.radius) {
@@ -34,6 +33,8 @@ window.onload = () => {
     circle1 = new Circle(200, 300, 50, context);
     gameLoop();
 }
+var game = new Game();
+
 
 function keyboardInput(event: KeyboardEvent) {
     // PRESS LEFT ARROW
