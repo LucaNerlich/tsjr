@@ -1,14 +1,12 @@
 import Circle from './Model/Circle';
 import Game from './GameFiles/Game';
 import * as Phaser from 'phaser-ce';
+// import * as fs from 'fs';
 
 let canvas: HTMLCanvasElement;
 let context: CanvasRenderingContext2D;
 let circle1: Circle;
-
-let phaserx: Phaser.Game;
-
-let gamex: Game;
+let game: Game;
 
 function gameLoop() {
     requestAnimationFrame(gameLoop);
@@ -31,9 +29,9 @@ window.onload = () => {
     document.addEventListener('keydown', keyboardInput);
     context = canvas.getContext("2d");
     circle1 = new Circle(200, 300, 50, context);
+    game = new Game();
     gameLoop();
 }
-var game = new Game();
 
 
 function keyboardInput(event: KeyboardEvent) {
